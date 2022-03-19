@@ -36,6 +36,7 @@ html {
 body {
   margin: 0;
 }
+
 .page-header {
   display: flex;
   justify-content: space-between;
@@ -63,5 +64,32 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  color: #ffff;
   padding: 150px 0;
+}
+.hero h1 {
+  font-size: 52px;
+}
+.hero p {
+  font-size: 24px;
+}
+.welcome {
+  display: flex;
+  /*margin: auto;*/
+}
+.left a {
+  background-color: #f195b2;
+  text-decoration: none;
+}
+.cakes-list {
+  display: flex;
+}
+.baking {
+  display: flex;
+}
+.page-footer {
+  text-align: center;
+  background-color: #303339;
+  color: #ffff;
+  padding: 30px 0;
 }
